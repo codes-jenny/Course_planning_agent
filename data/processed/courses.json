@@ -1,0 +1,139 @@
+[
+  {
+    "course_code": "IM21003",
+    "course_name": "Operations Research I",
+    "prerequisite": [],
+    "credits": "3-1-0",
+    "description": "Linear programming, simplex method, sensitivity analysis, transportation problems, network flow, integer programming.",
+    "source": "ISE ERP JSP"
+  },
+  {
+    "course_code": "IM22001",
+    "course_name": "Information Systems Lab",
+    "prerequisite": [],
+    "credits": "2-0-3",
+    "description": "Unix systems, network programming, object-oriented programming, applications in Industrial Engineering.",
+    "source": "ISE ERP JSP"
+  },
+  {
+    "course_code": "IM21006",
+    "course_name": "Operations Research II",
+    "prerequisite": ["IM21003"],
+    "credits": "3-1-0",
+    "description": "Non-linear programming, dynamic programming, queuing theory, Markov chains, optimization techniques.",
+    "source": "ISE ERP JSP"
+  },
+  {
+    "course_code": "IM21002",
+    "course_name": "Production Design and Process Planning",
+    "prerequisite": ["IM21003"],
+    "credits": "3-1-0",
+    "description": "Manufacturing systems, concurrent engineering, robotics, CNC, process planning, MRP, JIT systems, flexible manufacturing systems.",
+    "source": "ISE ERP JSP"
+  },
+  {
+    "course_code": "IM29006",
+    "course_name": "Operations Research Lab",
+    "prerequisite": ["IM21003"],
+    "credits": "0-0-3",
+    "description": "Use of OR software like LINDO and LINGO for solving linear programming problems and mini projects.",
+    "source": "ISE ERP JSP"
+  },
+  {
+    "course_code": "IM21008",
+    "course_name": "Work System Design",
+    "prerequisite": [],
+    "credits": "3-0-0",
+    "description": "Ergonomics, anthropometry, manual handling, work measurement, job evaluation, productivity and work design.",
+    "source": "ISE ERP JSP"
+  },
+  {
+    "course_code": "MA20104",
+    "course_name": "Probability and Statistics",
+    "prerequisite": [],
+    "credits": "3-0-0",
+    "description": "Probability theory, random variables, distributions, sampling theory, estimation, hypothesis testing.",
+    "source": "ISE ERP JSP"
+  },
+  
+  {
+    "course_code": "IM21001",
+    "course_name": "Engineering Economy, Costing and Accounting",
+    "prerequisite": [],
+    "credits": "3-1-0",
+    "description": "Engineering economy concepts including time value of money, present worth, rate of return, replacement analysis, and project evaluation. Basics of accounting including financial statements and double entry bookkeeping. Costing concepts including material, labour, overheads, job costing, process costing, marginal and standard costing, and cost control.",
+    "source": "ISE ERP JSP"
+  },
+  {
+    "course_code": "ME29701",
+    "course_name": "Workshop Process-II",
+    "prerequisite": ["Introduction to Engineering Practice or Equivalent"],
+    "credits": "0-0-3",
+    "description": "Hands-on training in machining, CNC operations, EDM, grinding, measurement techniques, foundry processes, and welding practices including gas welding, MIG, and submerged arc welding.",
+    "source": "ISE ERP JSP"
+  },
+  {
+    "course_code": "IM31005",
+    "course_name": "Quality Design and Control",
+    "prerequisite": ["IM21003 Operations Research-I"],
+    "credits": "3-1-0",
+    "description": "Quality management concepts including TQM, ISO standards, statistical process control, control charts, acceptance sampling, reliability analysis, maintenance, and design of experiments including Taguchi methods.",
+    "source": "ISE ERP JSP"
+  },
+  {
+    "course_code": "IM39005",
+    "course_name": "Quality Design and Control Laboratory",
+    "prerequisite": ["IM21003 Operations Research-I"],
+    "credits": "0-0-3",
+    "description": "Experiments on quality control including control charts, sampling plans, workflow systems, life testing, and online quality monitoring.",
+    "source": "ISE ERP JSP"
+  },
+  {
+    "course_code": "IM31008",
+    "course_name": "Logistics and Supply Chain Management",
+    "prerequisite": ["IM21003 Operations Research-I"],
+    "credits": "3-1-0",
+    "description": "Concepts of logistics and supply chain including facility location, transportation, inventory management, procurement, coordination strategies, bullwhip effect, global supply chains, and performance measurement.",
+    "source": "ISE ERP JSP"
+  },
+  {
+    "course_code": "IM31002",
+    "course_name": "Quality Engineering",
+    "prerequisite": ["IM31005 Quality Design and Control"],
+    "credits": "3-1-0",
+    "description": "Experimental design and analysis including ANOVA, factorial designs, response surface methodology, Taguchi methods, orthogonal arrays, and parameter design.",
+    "source": "ISE ERP JSP"
+  },
+  {
+    "course_code": "IM31006",
+    "course_name": "Simulation",
+    "prerequisite": ["IM21003 Operations Research-I"],
+    "credits": "3-0-0",
+    "description": "Discrete and continuous simulation techniques including random number generation, simulation modeling, statistical analysis, optimization, and validation of simulation systems.",
+    "source": "ISE ERP JSP"
+  },
+  {
+    "course_code": "IM31012",
+    "course_name": "Optimisation and Heuristic Methods",
+    "prerequisite": ["IM21003 Operations Research-I"],
+    "credits": "3-0-0",
+    "description": "Advanced optimization techniques including genetic algorithms, neural networks, fuzzy optimization, simulated annealing, data envelopment analysis, and evolutionary computing.",
+    "source": "ISE ERP JSP"
+  },
+  {
+    "course_code": "ME30604",
+    "course_name": "Machine Tools and Machining",
+    "prerequisite": ["Workshop-2"],
+    "credits": "3-1-0",
+    "description": "Machine tools and machining processes including CNC machines, tool geometry, chip formation, cutting temperature, tool wear, machining economics, and advanced machining techniques.",
+    "source": "ISE ERP JSP"
+  },
+  {
+    "course_code": "IM39003",
+    "course_name": "Optimisation and Heuristic Methods Project",
+    "prerequisite": ["IM21003 Operations Research-I"],
+    "credits": "0-0-3",
+    "description": "Project-based application of optimization techniques such as genetic algorithms, neural networks, fuzzy logic, simulated annealing, and evolutionary computing.",
+    "source": "ISE ERP JSP"
+  }
+]

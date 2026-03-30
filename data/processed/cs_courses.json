@@ -1,0 +1,122 @@
+[
+  {
+    "course_code": "CS29206",
+    "course_name": "Systems Programming Laboratory",
+    "prerequisite": [],
+    "credits": "0-0-3",
+    "description": "Hands-on lab covering makefiles, gcc/clang usage, code debugging with gdb, profiling and optimization with gprof, memory management using valgrind, version control systems, Unix commands and shell scripting, linking/loading programs and ELF analysis, and system configuration and management.",
+    "source": "IIT Kharagpur"
+  },
+  {
+    "course_code": "CS31005",
+    "course_name": "Algorithms-II",
+    "prerequisite": [],
+    "credits": "3-1-0",
+    "description": "Advanced algorithmic paradigms including divide and conquer, dynamic programming, greedy, branch and bound, randomized algorithms, geometric, algebraic and graph algorithms, NP-completeness, approximation algorithms, and introduction to external memory and parallel algorithms.",
+    "source": "IIT Kharagpur"
+  },
+  {
+    "course_code": "CS31007",
+    "course_name": "Computer Organization",
+    "prerequisite": [],
+    "credits": "3-1-0",
+    "description": "Study of CPU, memory, and I/O subsystems, instruction set architecture, data representation, computer arithmetic, CPU control unit design, memory system design, peripheral devices, interrupts, and performance enhancement techniques including pipelining and cache memory organization.",
+    "source": "IIT Kharagpur"
+  },
+  {
+    "course_code": "CS31003",
+    "course_name": "Compilers",
+    "prerequisite": [],
+    "credits": "3-0-0",
+    "description": "Design and implementation of compilers for imperative languages, covering lexical analysis, syntax and semantic analysis, symbol tables, runtime environment, intermediate code generation, code optimization, register allocation, target code generation, and advanced topics like type systems and OOP compilation.",
+    "source": "IIT Kharagpur"
+  },
+  {
+    "course_code": "CS29008",
+    "course_name": "Database Management Systems Laboratory",
+    "prerequisite": ["CS21201 Discrete Structures"],
+    "credits": "0-0-3",
+    "description": "Hands-on lab on database schema design, SQL programming, report generation using commercial RDBMS, front-end tools, ODBC/CORBA calls, internet-based database access, and database administration.",
+    "source": "IIT Kharagpur"
+  },
+  {
+    "course_code": "CS31001",
+    "course_name": "Operating Systems",
+    "prerequisite": ["CS31007 Computer Organization"],
+    "credits": "3-1-0",
+    "description": "Introduction to operating systems including processes, scheduling, context switching, process synchronization, threads, deadlocks, memory management (contiguous, non-contiguous, paging, virtual memory), file systems, disk and I/O management, virtualization, and case studies.",
+    "source": "IIT Kharagpur"
+  },
+  {
+    "course_code": "CS39002",
+    "course_name": "Operating Systems Laboratory",
+    "prerequisite": [],
+    "credits": "0-0-3",
+    "description": "Hands-on lab to familiarize with UNIX system calls for process management and inter-process communication; experiments on process scheduling and other OS tasks via simulation or implementation using environments like Nachos.",
+    "source": "IIT Kharagpur"
+  },
+  {
+    "course_code": "CS41001",
+    "course_name": "Theory of Computation",
+    "prerequisite": [],
+    "credits": "3-1-0",
+    "description": "Study of computability and complexity theory, including Turing machines, undecidability, primitive recursive and mu-recursive functions, lambda calculus, oracle machines, arithmetic hierarchy, time/space complexity, reductions, logic, and quantified Boolean formulas.",
+    "source": "IIT Kharagpur"
+  },
+  {
+    "course_code": "CS21002",
+    "course_name": "Switching Circuits & Logic Design",
+    "prerequisite": [],
+    "credits": "3-1-0",
+    "description": "Covers logic families (TTL, CMOS, etc.), Boolean algebra, switching functions, combinational and sequential circuits, minimization techniques (K-map, Quine-McCluskey, BDD), circuit synthesis with ROMs/PLAs/FPGAs, and ASM chart-based sequential circuit design.",
+    "source": "IIT Kharagpur"
+  },
+  {
+    "course_code": "CS29006",
+    "course_name": "Software Engineering Laboratory",
+    "prerequisite": [],
+    "credits": "0-0-3",
+    "description": "Lab on requirements specification, function-oriented design using SA/SD, object-oriented design using UML, test case design, implementation in Java, and software life cycle tools including CASE and configuration management.",
+    "source": "IIT Kharagpur"
+  },
+  {
+    "course_code": "CS29002",
+    "course_name": "Switching Circuits Laboratory",
+    "prerequisite": [],
+    "credits": "0-0-3",
+    "description": "Hands-on lab for pulse circuits (bistable, astable, monostable), TTL and CMOS gates, combinational circuits like ALU and 7-segment drivers, sequential circuits including counters and ASM designs (e.g., traffic light controllers).",
+    "source": "IIT Kharagpur"
+  },
+  {
+    "course_code": "CS29003",
+    "course_name": "Algorithms Laboratory",
+    "prerequisite": [],
+    "credits": "0-0-3",
+    "description": "Lab focusing on implementation and analysis of algorithms from class, use of various data structures, comparison of algorithmic approaches, and design of algorithms for new problems, including a large-scale project using multiple algorithms and data structures.",
+    "source": "IIT Kharagpur"
+  },
+  {
+    "course_code": "CS21003",
+    "course_name": "Algorithm - I",
+    "prerequisite": [],
+    "credits": "3-1-0",
+    "description": "Introduction to asymptotic notations, RAM model, complexity analysis, basic algorithmic paradigms, searching and sorting algorithms, priority queues, heaps, trees, string matching, and fundamental graph algorithms like BFS, DFS, MST, and shortest paths.",
+    "source": "IIT Kharagpur"
+  },
+  {
+    "course_code": "CS21001",
+    "course_name": "Discrete Structures",
+    "prerequisite": [],
+    "credits": "3-1-0",
+    "description": "Covers propositional logic, proof techniques, sets, relations and functions, counting principles, recurrence relations, algebraic structures (semigroups, monoids, groups, rings, fields), Boolean algebra, and introductory graph theory including trees, Eulerian/Hamiltonian walks, and graph coloring.",
+    "source": "IIT Kharagpur"
+  },
+  {
+    "course_code": "CS21004",
+    "course_name": "Formal Language & Automata Theory",
+    "prerequisite": [],
+    "credits": "3-1-0",
+    "description": "Study of alphabets, languages, grammars, regular and context-free languages, finite automata (DFA/NFA), pushdown automata, context-sensitive languages, Turing machines, undecidability, Church-Turing thesis, universal Turing machine, and reductions between languages.",
+    "source": "IIT Kharagpur"
+  }
+]

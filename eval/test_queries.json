@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "category": "prereq_check",
+    "query": "I have completed CS31007 Computer Organization. Can I take CS31001 Operating Systems?",
+    "expected_decision": "eligible",
+    "expected_citation_source": "cs_courses.json",
+    "notes": "CS31001 requires CS31007 — direct prereq satisfied"
+  },
+  {
+    "id": 2,
+    "category": "prereq_check",
+    "query": "Can I take CS31001 Operating Systems without any prerequisites?",
+    "expected_decision": "not_eligible",
+    "expected_citation_source": "cs_courses.json",
+    "notes": "CS31001 requires CS31007 — prereq not satisfied"
+  },
+  {
+    "id": 3,
+    "category": "prereq_check",
+    "query": "I have completed IM21003 Operations Research I. Can I take IM21006 Operations Research II?",
+    "expected_decision": "eligible",
+    "expected_citation_source": "courses.json",
+    "notes": "IM21006 requires IM21003 — satisfied"
+  },
+  {
+    "id": 4,
+    "category": "prereq_check",
+    "query": "Can I take IM31002 Quality Engineering without having done IM31005?",
+    "expected_decision": "not_eligible",
+    "expected_citation_source": "courses.json",
+    "notes": "IM31002 requires IM31005 Quality Design and Control"
+  },
+  {
+    "id": 5,
+    "category": "prereq_check",
+    "query": "I have completed CS21201 Discrete Structures. Can I take CS29008 DBMS Lab?",
+    "expected_decision": "eligible",
+    "expected_citation_source": "cs_courses.json",
+    "notes": "CS29008 requires CS21201 — satisfied"
+  },
+  {
+    "id": 6,
+    "category": "prereq_check",
+    "query": "Can I take CS29008 Database Management Systems Laboratory without Discrete Structures?",
+    "expected_decision": "not_eligible",
+    "expected_citation_source": "cs_courses.json",
+    "notes": "CS29008 requires CS21201 Discrete Structures"
+  },
+  {
+    "id": 7,
+    "category": "prereq_check",
+    "query": "I want to take CS31005 Algorithms II. Do I need any prerequisites?",
+    "expected_decision": "eligible",
+    "expected_citation_source": "cs_courses.json",
+    "notes": "CS31005 has no prerequisites listed"
+  },
+  {
+    "id": 8,
+    "category": "prereq_check",
+    "query": "Can I take IM31006 Simulation if I have only completed MA20104?",
+    "expected_decision": "not_eligible",
+    "expected_citation_source": "courses.json",
+    "notes": "IM31006 requires IM21003 OR — not MA20104"
+  },
+  {
+    "id": 9,
+    "category": "prereq_check",
+    "query": "I have done IM21003. Can I take IM31005 Quality Design and Control?",
+    "expected_decision": "eligible",
+    "expected_citation_source": "courses.json",
+    "notes": "IM31005 requires IM21003 — satisfied"
+  },
+  {
+    "id": 10,
+    "category": "prereq_check",
+    "query": "Can I take CS41001 Theory of Computation without any prior CS courses?",
+    "expected_decision": "eligible",
+    "expected_citation_source": "cs_courses.json",
+    "notes": "CS41001 has no listed prerequisites"
+  },
+  {
+    "id": 11,
+    "category": "prereq_chain",
+    "query": "What do I need to take before I can enrol in CS31001 Operating Systems? Trace the full chain.",
+    "expected_decision": "multi_hop",
+    "expected_citation_source": "cs_courses.json",
+    "notes": "CS31001 → CS31007 (no further prereqs) — 2-hop chain"
+  },
+  {
+    "id": 12,
+    "category": "prereq_chain",
+    "query": "I want to take IM31002 Quality Engineering. What is the full prerequisite chain from the beginning?",
+    "expected_decision": "multi_hop",
+    "expected_citation_source": "courses.json",
+    "notes": "IM31002 → IM31005 → IM21003 — 3-hop chain"
+  },
+  {
+    "id": 13,
+    "category": "prereq_chain",
+    "query": "What courses must I complete before CS29008 DBMS Lab? Go step by step.",
+    "expected_decision": "multi_hop",
+    "expected_citation_source": "cs_courses.json",
+    "notes": "CS29008 → CS21201 (no further prereqs listed) — 2-hop"
+  },
+  {
+    "id": 14,
+    "category": "prereq_chain",
+    "query": "Trace the prerequisite chain for IM39005 Quality Design and Control Laboratory.",
+    "expected_decision": "multi_hop",
+    "expected_citation_source": "courses.json",
+    "notes": "IM39005 → IM21003 — 2-hop chain"
+  },
+  {
+    "id": 15,
+    "category": "prereq_chain",
+    "query": "I am a first year student with no completed courses. What is the earliest I can take IM31008 Logistics?",
+    "expected_decision": "multi_hop",
+    "expected_citation_source": "courses.json",
+    "notes": "IM31008 → IM21003 — needs to complete IM21003 first"
+  },
+  {
+    "id": 16,
+    "category": "program_requirement",
+    "query": "What is the minimum CGPA required to register for the CSE minor?",
+    "expected_decision": "policy_answer",
+    "expected_citation_source": "ug_policy.txt",
+    "notes": "Answer: 7.5 CGPA, no backlogs, register at start of 5th sem"
+  },
+  {
+    "id": 17,
+    "category": "program_requirement",
+    "query": "How many subjects do I need to complete for the CSE minor?",
+    "expected_decision": "policy_answer",
+    "expected_citation_source": "ug_policy.txt",
+    "notes": "Answer: 6 subjects minimum, at least 3 as additional credits"
+  },
+  {
+    "id": 18,
+    "category": "program_requirement",
+    "query": "What happens to my minor registration if my CGPA drops below 8.0?",
+    "expected_decision": "policy_answer",
+    "expected_citation_source": "ug_policy.txt",
+    "notes": "Minor registration ceases if BOTH SGPA and CGPA fall below 8.0"
+  },
+  {
+    "id": 19,
+    "category": "program_requirement",
+    "query": "By which semester must a B.Tech student complete the CSE minor?",
+    "expected_decision": "policy_answer",
+    "expected_citation_source": "ug_policy.txt",
+    "notes": "Answer: 8th semester"
+  },
+  {
+    "id": 20,
+    "category": "program_requirement",
+    "query": "I am an ISE student with CGPA 8.5, 5th semester, no backlogs. I've completed IM21003, CS21001, CS21003, CS31007. Suggest a full course plan for CSE minor.",
+    "expected_decision": "plan",
+    "expected_citation_source": "minor_cse.pdf, cs_courses.json, ug_policy.txt",
+    "notes": "Full plan query — should recommend eligible CS courses with citations"
+  },
+  {
+    "id": 21,
+    "category": "not_in_docs",
+    "query": "Is CS31001 offered in the Spring 2025 semester?",
+    "expected_decision": "abstain",
+    "expected_citation_source": "none",
+    "notes": "Semester availability is not in catalog — must abstain"
+  },
+  {
+    "id": 22,
+    "category": "not_in_docs",
+    "query": "Who is the professor teaching CS31005 this semester?",
+    "expected_decision": "abstain",
+    "expected_citation_source": "none",
+    "notes": "Faculty info not in catalog — must abstain"
+  },
+  {
+    "id": 23,
+    "category": "not_in_docs",
+    "query": "Can I get instructor consent to waive the prerequisite for CS29008?",
+    "expected_decision": "abstain",
+    "expected_citation_source": "none",
+    "notes": "Instructor consent process not documented — must abstain"
+  },
+  {
+    "id": 24,
+    "category": "not_in_docs",
+    "query": "What is the exam schedule for CSE minor courses in Autumn 2025?",
+    "expected_decision": "abstain",
+    "expected_citation_source": "none",
+    "notes": "Exam schedule not in catalog — must abstain"
+  },
+  {
+    "id": 25,
+    "category": "not_in_docs",
+    "query": "How many seats are available in CS31001 this semester?",
+    "expected_decision": "abstain",
+    "expected_citation_source": "none",
+    "notes": "Seat availability not in catalog — must abstain"
+  }
+]
