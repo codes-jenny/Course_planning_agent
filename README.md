@@ -7,7 +7,7 @@ Agentic RAG system for ISE students planning a CSE Minor at IIT Kharagpur.
 Clone the repository and install dependencies:
 
 ```bash
-git clone <your-repo>
+git clone Course_planning_agent
 cd iit-kgp-rag
 pip install -r requirements.txt
 
